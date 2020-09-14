@@ -1,0 +1,245 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+	body {
+		background-color: lightyellow;
+		height: 100vh;
+		width: 100%;
+
+	}
+
+	main {
+		height: 70vh;
+		width: 100%;
+	}
+		
+	header {
+		width: 100%;
+		padding: 30px;
+		height: 15vh;
+		border: 4px solid red;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+		z-index: 100;
+
+	}	
+
+	footer {
+		width: 100%;
+		text-align: right;
+		padding: 30px;
+		height: 15vh;
+		align-items: center;
+		justify-content: center;
+		border: 4px solid red;
+		display: flex;
+		position: fixed;
+		bottom: 0;
+	}
+
+	footer:hover {
+		background-color: white;
+		cursor: pointer;
+	}
+
+	aside {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 15%;
+		height: 100vh;
+		position: fixed;
+		border: 4px solid red;
+		z-index: 1;
+	}
+
+/*---------------------------
+Header 
+---------------------------*/
+
+
+/*---------------------------
+main
+---------------------------*/
+
+	.bars {
+		left: 0;
+	}
+
+	.middle {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		transition: all .5s ease-in-out;
+	}
+
+	
+	.contact {
+		right: 0;
+	}
+
+
+
+	/*--main pages--*/
+
+
+	.left {
+		width: 33.33333%;
+		height: 100%;
+	}
+
+	.center {
+		width: 33.33333%;
+		height: 100%;
+	}
+
+	.right {
+		width: 33.33333%;
+		height: 100%;
+	}
+
+
+	/*--Welcome--*/
+	/*--illustration--*/
+
+
+
+	.middle-l {
+		background-color: cyan;
+	}
+
+	.middle-m {
+		background-color: lightgreen;
+	}
+
+	.middle-r {
+		background-color: gray;
+
+	}
+
+
+	/*--Digital--*/
+	/*--case studies--*/
+
+
+	.middle-l2 {
+		background-color: green;
+	}
+
+	.middle-m2 {
+		background-color: purple;
+	}
+
+	.middle-r2 {
+		background-color: black;
+	}
+
+	/*--Physical--*/
+
+
+	.middle-l3 {
+		background-color: lightgreen;
+	}
+
+	.middle-m3 {
+		background-color: pink;
+	}
+
+	.middle-r3 {
+		background-color: darkorange;
+	}
+
+
+
+
+
+	/*----*/
+
+
+	.welcome, 
+	.digital, 
+	.physical, 
+	.case-studies, 
+	.illustration {
+
+		display: flex;
+		height: 100vh;
+		width: 100%;
+
+	}
+
+
+	section h2 {
+		/*transform: rotate(-90deg);*/
+		padding: 20px;
+		color: black;
+		white-space: normal;
+	}
+
+
+
+
+
+
+
+/*---------------------------
+Typography
+---------------------------*/
+
+	h1 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 80px;
+		color: #E63947;
+		font-weight: 600;
+		margin-left: -6px;
+	}
+
+	.blue {
+		color: #2260FF;
+
+
+	}
+
+	h2 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 45px;
+		color: #2260FF;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	h3 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		color: #E63947;
+		font-weight: 200;
+	}
+
+	a {
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		color: #E63947;
+	}
+
+	a:hover {
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 25px;
+		color: #fff;
+	}
+
+	section h2 {
+	/*transform: rotate(-90deg);*/
+	padding: 20px;
+	color: black;
+	white-space: normal;
+	}	
+
