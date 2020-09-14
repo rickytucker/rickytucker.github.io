@@ -182,6 +182,8 @@ $('#more-digital').on('click', () => {
 
 // EXIT from DIGITAL
 // back arrow to main menu
+
+
 $('.arrow').on('click', () => {
 	$('#more-digital').removeClass('off');
 	$('footer img').removeClass('off');
